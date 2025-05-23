@@ -33,4 +33,43 @@
     <label for="--numeração">qual numeração da camiseta </label>
     <textarea id="numeração" name="numeração" rows="2" placeholder="EX: numeração P,M,G,GG,XG,XXG..."></textarea>
 
+    <!--Forma de pagamento-->
+    <label for="pagamento">forma de pagamento:</label>
+    <select id="pagamento" name="pagamento" required></select>
+    <option value="">selecione uma opção</option>
+    <option value="pix">pix</option>
+    <option value="cartão">cartão de crédito</option>
+    <option value="boleto">boleto</option>
+    <option value="dinheiro">dinheiro na entrega</option>
+</select>
+
+    <!--Data e Hora -->
+    <label for="entrega">Data da entrega:</label>
+    <input type="date" id="data" name="data" required>
+
+    <label for="hora">Horario desejado:</label>
+    <input type="time" id="hora" name="hora" required>
+
+    <!--entrega ou retirada-->
+    <label for="entrega">como deseja receber:</label>
+    <select id="entrega" name="entrega" required>
+     <option value="">selecione uma opção:</option>
+     <option value="entrega">entrega</option>
+     <option value="retirada">retirada</option>
+    </select>
+    <!--botão de envio-->
+
+    <button type="submit">enviar pedido</button>
+  </form>
+</div>
+
+
+
+
+
+
+
+
     
+
+
