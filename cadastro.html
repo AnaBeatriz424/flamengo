@@ -29,14 +29,14 @@
      <input type="tel" id="whatsapp" name="whatsapp" required>
 
      <!-- TIPO DE PRODUTO -->
-    <label for="PRODUTO">oque deseja encomendar ?</label>
-    <section id="PRODUTO" name="PRODUTO" required>
-        <option value="">selecione uma opçâo:</option>
+    <label for="produto">oque deseja encomendar ?</label>
+    <select id="produto" name="produto" required>
+        <option value="">selecione uma opção</option>
         <option value="caneca">caneca</option>
         <option value="copo termico">copo termico</option>
         <option value="camiseta do flamengo">camiseta do flamengo</option>
         <option value="chaveiro">chaveiro</option>
-    </section>
+    </select>
 
     <!--Descriço do pedido -->
     <label for="Descriço">descreva seu pedido aqui :</label>
@@ -48,13 +48,13 @@
 
     <!--Forma de pagamento-->
     <label for="pagamento">forma de pagamento:</label>
-    <select id="pagamento" name="pagamento" required></select>
-    <option value="">selecione uma opção:</option>
+    <select id="pagamento" name="pagamento" required>
+    <option value="">selecione uma opção</option>
     <option value="pix">pix</option>
     <option value="cartão">cartão de crédito</option>
     <option value="boleto">boleto</option>
     <option value="dinheiro">dinheiro na entrega</option>
-</select>
+    </select>
 
     <!--Data e Hora -->
     <label for="entrega">Data da entrega:</label>
@@ -64,9 +64,9 @@
     <input type="time" id="hora" name="hora" required>
 
     <!--entrega ou retirada-->
-    <label for="entrega">como deseja receber:</label>
+    <label for="entrega">como deseja receber</label>
     <select id="entrega" name="entrega" required>
-     <option value="">selecione uma opção:</option>
+     <option value="">selecione uma opção</option>
      <option value="entrega">entrega</option>
      <option value="retirada">retirada</option>
     </select>
